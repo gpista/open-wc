@@ -136,7 +136,7 @@ From there on it's easy to extend further for different use cases. For example, 
 
 ## Injecting a service worker
 
-When you use `createSpaConfig` a service worker is generated automatically. It is not injected into your `index.html` by default to prevent unexpected results. You can turn this on by enabling the `injectServiceWorker` option:
+When you use `createSpaConfig` a service worker is generated automatically with Workbox. The service worker registration is not injected into your `index.html` by default to prevent unexpected results. You can turn this on by enabling the `injectServiceWorker` option:
 
 ```js
 const baseConfig = createSpaConfig({
