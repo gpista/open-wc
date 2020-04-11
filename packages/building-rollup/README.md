@@ -329,7 +329,7 @@ export default merge(baseConfig, {
 
 </details>
 
-#### Support for Typescript
+#### Support for Commonjs
 
 <details>
   <summary>View example</summary>
