@@ -172,7 +172,7 @@ For example to add support for class properties:
 
 Our config generator sets you up with good defaults for most projects. It's easy to extend and customize this config further for your requirements.
 
-If you find yourself disabling a lot of the default functionality we recommend forking from the default config and taking control yourself. Rollup is not that hard to configure, it's better to be in full control if you know what you're doing.
+If you find yourself disabling a lot of the default functionality we recommend forking from the default config and taking control yourself. Rollup is relatively easy to configure compared to other build tools, it's better to be in full control if you know what you're doing.
 
 ### Customizing default plugins
 
