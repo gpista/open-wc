@@ -85,6 +85,8 @@ function createSpaConfig(options) {
             globDirectory: path.join(process.cwd(), outputDir),
             // cache any html js and css by default
             globPatterns: ['**/*.{html,js,css}'],
+            skipWaiting: true,
+            clientsClaim: true
           },
           () => {},
         ),
