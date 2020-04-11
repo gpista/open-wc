@@ -50,7 +50,7 @@ const baseConfig = createSpaConfig({
   // legacyBuild: 'nomodule',
   // development mode creates a non-minified build
   developmentMode: process.env.ROLLUP_WATCH === 'true',
-  // set to true to inject service worker into HTML
+  // set to true to inject the service worker registration into the index.html
   injectServiceWorker: false,
 });
 
